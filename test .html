@@ -1,0 +1,14 @@
+<!doctype html>
+<title>Example</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+  $( function() {
+    $( "button" ).click( function() {
+      $( "h1" ).animate({
+        height: "toggle"
+      }, 1000 );   
+    });
+  });
+</script>
+<button>Toggle away!</button>
+<h1 style="color: #00ff00;">Click the button... say... 3 times or more...</h1>
